@@ -43,7 +43,7 @@ $temperature = "";
 
 // Parameters for the Weather (API key)
 $api_key = "d94f65b94eedbb9e5eca6373f2e20e95";
-$api_url = "http://api.openweathermap.org/data/2.5/weather?lat={$lat}&lon={$lon}&units=metric&appid={$api_key}";
+$api_url = ""; //deleted openweathermap.org api endpoint
 
 $ch = curl_init();
 
